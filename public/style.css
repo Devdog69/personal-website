@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn{
+    background-color: #FA5F55;
+    color: white;
+  }
+  
+  .topnav .active {
+    background-color: #FA5F55;
+    color: white;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #FA5F55;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+  .logo {
+
+    background: left / cover url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956999.jpg&fm=jpg');
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: #FA5F55;
+    text-shadow: #000 2px 2px 0.2rem;
+}
+
+
+
+
+.footer {  
+    position: fixed; 
+    bottom: 5px;     
+    width: 100%;  
+    background-color: gray;  
+    color: white;
+    text-align: center;
+    }
+
+th {
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+  color: white;
+}
